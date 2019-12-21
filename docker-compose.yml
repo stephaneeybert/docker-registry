@@ -1,0 +1,17 @@
+version: "3.7"
+services:
+  registry:
+    image: registry:latest
+    ports:
+      - 5000:5000
+    volumes:
+      - ~/dev/docker/registries/registry:/var/lib/registry
+    environment:
+      REGISTRY_STORAGE_DELETE_ENABLED: "true"
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: any
+        delay: 5s
+        max_attempts: 3
+        window: 30s

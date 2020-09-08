@@ -5,7 +5,7 @@ services:
     ports:
       - 5000:5000
     volumes:
-      - ~/dev/docker/registries/registry:/var/lib/registry
+      - ~/dev/docker/registries/docker:/var/lib/registry
     environment:
       REGISTRY_STORAGE_DELETE_ENABLED: "true"
     deploy:

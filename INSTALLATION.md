@@ -22,3 +22,8 @@ cd ~/dev/docker/registries/docker/;
 docker stack deploy --compose-file docker-compose.yml docker-registry
 ```
 
+Stopping the registry
+```
+docker stack rm docker-registry
+```
+

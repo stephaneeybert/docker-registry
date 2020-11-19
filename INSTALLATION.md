@@ -1,5 +1,19 @@
 Installation
 
+Go to the registries directory
+```
+cd ~/dev/docker/registries
+```
+Clone the repository
+```
+git clone git@github.com:stephaneeybert/docker-registry.git
+```
+Rename the directory
+```
+mv docker-registry/ docker
+```
+
+
 On the local
 
 Copy the a file

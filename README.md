@@ -18,7 +18,7 @@ On the local
 
 Copy the a file
 ```
-scp ~/dev/docker/registries/docker/docker-compose.yml stephane@149.28.60.185:~/dev/docker/registries/docker/
+scp ~/dev/docker/registries/docker/docker-compose.yml stephane@...:~/dev/docker/registries/docker/
 ```
 
 On the remote
